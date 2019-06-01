@@ -1,4 +1,7 @@
 # Purge-CDN
-Azure Automation Runbook that purges files from an Azure CDN
+Azure Automation Runbook that purges files from an Azure CDN.
 
-This script provided as-is with no warrenty. Test it before you trust it.
+More information can be found on my blog at https://www.ciraltos.com or on my 
+YouTube channel at http://www.youtube.com/c/TravisRoberts.
+
+This script provided as-is with no warranty. Test it before you trust it.
