@@ -5,7 +5,7 @@
 .DESCRIPTION
   This script is part of a pipeline that uses Event Gird to trigger an webhook when a file is uploaded or deleted from a Storage Account.
   The Webhook passes information into the runbook including the file path.  That data is used to run the purge action against the CDN.
-  Update the Parameter section and the file path.
+  Update the Parameter section and the file path. 
 .INPUTS
   JSON data from the Webhook
 .OUTPUTS
@@ -15,7 +15,7 @@
   Author:         Travis Roberts
   Creation Date:  5/29/2019
   Purpose/Change: Initial script development
-  This script provided as-is with no warrenty. Test it before you trust it.
+  This script provided as-is with no warranty. Test it before you trust it.
 .EXAMPLE
   See my YouTube channel at http://www.youtube.com/c/TravisRoberts or https://www.Ciraltos.com for details.
 #>
@@ -33,7 +33,7 @@ param (
 # Connect to Azure with RunAs account
 $conn = Get-AutomationConnection -Name "AzureRunAsConnection"
 
-# Connect to Azure Automaiton
+# Connect to Azure Automation
 $null = Add-AzAccount `
   -ServicePrincipal `
   -TenantId $conn.TenantId `
